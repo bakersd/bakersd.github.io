@@ -1,0 +1,54 @@
+body {
+	background-image: url(storm.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 30px;
+}
+p {
+font-family: 'Raleway', sans-serif;
+}
+.jumbotron {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	width: 75%;
+	margin: auto;
+	text-align: center;
+}
+.display-4, h2, .card-title, .btn {
+	font-family: 'Cinzel Decorative', cursive;
+}
+h2 {
+	color: white;
+}
+.card {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	transition: all 1s ease-in-out;
+}
+.card:hover {
+	transform: scale(1.1);
+}
+.ml-3 {
+	width: 32%
+}
+.media {
+	color: white;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+hr {
+	border-color: white;
+}
+a {
+	margin: auto;
+	text-align: center;
+}
+.btn-secondary {
+	background-color: rgb(106, 66, 92);
+	border: none;
+}
